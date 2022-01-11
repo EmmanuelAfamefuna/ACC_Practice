@@ -1,0 +1,26 @@
+.Text {
+    width: 50ch;
+    text-align: left;
+    text-indent: 1rem;
+    text-decoration: underline;
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 3px dotted #999;
+}
+
+.T{
+    text-decoration: line-through;
+}
+
+.TA {
+    text-transform: capitalize;
+    white-space: nowrap;
+    border: 3px solid gold;
+    overflow: auto;
+    text-overflow: ellipsis;
+    overflow: scroll;
+}
+
+
+
+   
