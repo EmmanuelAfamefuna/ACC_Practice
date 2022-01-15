@@ -1,0 +1,30 @@
+
+
+label {
+    display: block;
+}
+
+input [type="number"],
+input [type="password"]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    transition: border-color 0.15s, box-shadow 0.15s ;
+}
+
+input [type="number"]:focus,
+input [type="password"]:focus {
+     border-color: #7db0fd;
+     outline: 0;
+    box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+}
+
+.comment {
+    width: 20px;
+    resize: none;
+    padding: 5px;
+}
+
+
+
+
