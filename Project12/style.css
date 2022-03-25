@@ -1,4 +1,13 @@
-@keyframes pop {
+h1 {
+    position: relative;
+    left: 40%;
+    font-family: 'Henny Penny', cursive;
+    font-size: 50px;
+    color: paleturquoise;
+}
+
+
+ @keyframes pop {
     0% {
         transform: scale(1);
     }
@@ -9,7 +18,7 @@
 
     50% {
         transform: rotate (45deg);
-        background: tomato;
+        background: goldenrod;
     }
 
     75% {
@@ -20,15 +29,18 @@
     100%{
         transform: rotate(0);
     }
-}
+ }
 
 
 .box {
-    width: 200px;
-    height: 200px;
-    background: gold;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: paleturquoise;
     animation-name: pop;
     animation-duration: 4s;
     animation-delay: 1s;
     animation-iteration-count: 2;
+    overflow: hidden;
+    margin: auto;
 }
